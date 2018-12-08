@@ -1,0 +1,20 @@
+public class Box{
+    int width = 10;
+    int height = 20;
+    int weight = 30;
+
+    public static void main (String[] args){
+        System.out.println("Параметры новой коробки");
+
+        Box smallBox = new Box();
+        smallBox.width = 11;
+        smallBox.height = 21;
+        smallBox.weight  =31;
+
+        System.out.println("width = " + smallBox.width);
+        System.out.println("height = " + smallBox.height);
+        System.out.println("weight = " + smallBox.weight);
+    }
+
+
+}
