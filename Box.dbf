@@ -9,7 +9,7 @@ public class Box{
         Box smallBox = new Box();
         smallBox.width = 11;
         smallBox.height = 21;
-        smallBox.weight  =31;
+        smallBox.weight  =31; 
 
         System.out.println("width = " + smallBox.width);
         System.out.println("height = " + smallBox.height);
