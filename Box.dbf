@@ -13,7 +13,7 @@ public class Box{
 
         System.out.println("width = " + smallBox.width);
         System.out.println("height = " + smallBox.height);
-        System.out.println("weight = " + smallBox.weight);
+        System.out.println("weight = " + smallBox.weight); 
     }
 
 
